@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+ 
+  .hero {
+    background: url('https://source.unsplash.com/1600x900/?grocery') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Category Section */
+  .categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #f4f4f4;
+  }
+
+  .category {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+
+  .category:hover {
+    transform: scale(1.05);
+  }
+
+  .category img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+
+
+  .promotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: #ffbe0b;
+    color: #333;
+  }
+
+  .promotion h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  .promotion p {
+    font-size: 1.2em;
+  }
+
+
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }

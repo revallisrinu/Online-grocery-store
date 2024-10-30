@@ -1,0 +1,136 @@
+{
+  "groceries": [
+    {
+      "id": "1",
+      "category": "Fruits",
+      "name": "banana",
+      "price": 25,
+      "quantity": "2",
+      "totalamount": 50,
+      "unit": "kg"
+    },
+    {
+      "id": "2",
+      "category": "Fruits",
+      "name": "pineapple",
+      "price": 40,
+      "quantity": "2",
+      "totalamount": 80,
+      "unit": "kg"
+    },
+    {
+      "id": "3",
+      "category": "Vegetables",
+      "name": "Carrot",
+      "price": 0.8,
+      "quantity": "2",
+      "totalamount": 18,
+      "unit": "kg"
+    },
+    {
+      "id": "4",
+      "category": "Vegetables",
+      "name": "Potato",
+      "price": 1,
+      "quantity": "2",
+      "totalamount": 18,
+      "unit": "kg"
+    },
+    {
+      "id": "5",
+      "category": "Dairy",
+      "name": "Milk",
+      "quantity": "2",
+      "totalamount": 18,
+      "price": 1.5,
+      "unit": "liter"
+    },
+    {
+      "id": "6",
+      "category": "Dairy",
+      "name": "Cheese",
+      "price": 4,
+      "quantity": "2",
+      "totalamount": 8,
+      "unit": "500g"
+    },
+    {
+      "id": "7",
+      "category": "Bakery",
+      "name": "curry puff",
+      "price": 2,
+      "quantity": "2",
+      "totalamount": 4,
+      "unit": "loaf"
+    },
+    {
+      "id": "8",
+      "category": "Bakery",
+      "name": "egg Puff",
+      "price": 9,
+      "quantity": "2",
+      "totalamount": 18,
+      "unit": "piece"
+    },
+    {
+      "id": "9",
+      "category": "Beverages",
+      "name": "Orange Juice",
+      "price": 20,
+      "quantity": "2",
+      "totalamount": 40,
+      "unit": "liter"
+    },
+    {
+      "id": "10",
+      "category": "Snacks",
+      "name": "Chips",
+      "price": 10,
+      "quantity": "2",
+      "totalamount": 20,
+      "unit": "bag"
+    },
+    {
+      "id": "4ae8",
+      "category": "dairy",
+      "name": "doodhpeda",
+      "price": "30",
+      "quantity": "2",
+      "totalamount": 60,
+      "unit": "1kg"
+    },
+    {
+      "id": "93b3",
+      "category": "vegtables",
+      "name": "ladysfinger",
+      "price": "25",
+      "quantity": "2",
+      "totalamount": 50,
+      "unit": "1kg"
+    },
+    {
+      "id": "d311",
+      "category": "Choclates",
+      "name": "kit-kat",
+      "price": "5",
+      "quantity": "2",
+      "unit": "1"
+    },
+    {
+      "id": "7e0a",
+      "category": "biscuits",
+      "name": "Parle-G",
+      "quantity": "2",
+      "price": "10",
+      "unit": "100g"
+    },
+    {
+      "id": "9ba1",
+      "category": "Tea Powder",
+      "name": "Bruu",
+      "quantity": "4",
+      "price": "20",
+      "unit": "50grams"
+    }
+  ]
+}

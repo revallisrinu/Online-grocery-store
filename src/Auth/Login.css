@@ -1,0 +1,148 @@
+.login-style {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3f3fef, #59c2ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.login-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff8c00;
+}
+
+
+
+.login-illustration {
+    margin-bottom: 10px;
+}
+
+.login-illustration img {
+    width: 80%;
+    max-width: 150px;
+}
+
+.description {
+    color: #888;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.form-title {
+    font-size: 24px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.options a {
+    color: #3f3fef;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+.submit-primary {
+    background-color: #ff8c00;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.submit-primary:hover {
+    background-color: #e67e00;
+}
+
+.toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle-button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.toggle-button.gray {
+    background-color: #ccc;
+}
+
+.toggle-button:hover {
+    background-color: #d4d4d4;
+}
+
+@media (max-width: 768px) {
+    .login-card {
+        padding: 15px;
+    }
+    .form-title {
+        font-size: 20px;
+    }
+    .submit-primary, .toggle-button {
+        font-size: 14px;
+    }
+}
